@@ -1,0 +1,88 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #feb2b2;
+    padding-top: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #ff6f6f;
+  }
+  
+  .text-center{
+    text-align: center;
+  }
+
+
+  /* Style the table container */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #f4f4f4; /* Light background color */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table header */
+.table-dark {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+}
+
+.table-dark th {
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Style the table rows */
+.table tbody tr {
+  border-bottom: 1px solid #ddd; /* Light border color */
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternating row color */
+}
+
+.table tbody tr:hover {
+  background-color: #e0e0e0; /* Hover effect */
+}
+
+/* Style the table cells */
+.table td {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.table td img {
+  border-radius: 50%;
+  border: 2px solid #ddd; /* Border around image */
+}
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+  .table {
+      font-size: 0.9rem;
+  }
+}
